@@ -1,24 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen|Ubuntu');
-
+@import url('https://fonts.googleapis.com/css?family=Italiana');
 body {
   /*font-family: 'Ubuntu', sans-serif;*/
   font-family: 'Oxygen', sans-serif;
-
 }
 
 .header-container {
-  background-color: #545C64;
-  height: 42rem;
+  background-image: url(./img/grayback.png);
+  height: 40rem;
   width: 100%;
+}
 
+.chicago-town {
+  background-image: url(./img/skyline.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 12px;
+  height: 14rem;
+  width: 100%;
+  margin-top: .5rem;
+  z-index: 1;
 }
 
 .info-container {
   position: relative;
-  top: 15%;
+  top: 3%;
   text-align: center;
   color: white;
   padding: 0 1rem 0 1rem;
+  z-index: 2;
 }
 
 .title {
@@ -29,27 +40,27 @@ body {
 
 .name {
   font-size: 5rem;
-  margin: 1rem;
+  padding: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Ubuntu', sans-serif;
 }
 
 .intro-about-me {
-  margin-top: 1rem;
+  font-family: 'Italiana', serif;
+  margin-bottom: 1rem;
   padding: 0 2rem 0 2rem;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 30px;
 }
 
 .section2-container {
-background-color: #FAFAFA;
-padding: 0 1rem 0 1rem;
-text-align: center;
+  background-color: #FAFAFA;
+  padding: 0 1rem 0 1rem;
+  text-align: center;
 }
 
-.section2-info {
-}
+.section2-info {}
 
 .infoheader {
   color: #545C64;
@@ -58,16 +69,18 @@ text-align: center;
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 2rem;
-  padding-top: 3rem;
+  padding-top: 2rem;
   line-height: 35px;
 }
 
-
-
+#latest-work {
+  padding-top: 3rem;
+}
 
 .clones {
   color: #545C64;
   text-align: center;
+  font-size: 1.1rem;
   margin: 0 1.25rem 0 1.25rem;
 }
 
@@ -88,9 +101,7 @@ text-align: center;
 .projects-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1.25rem;
-
-
+  grid-gap: .25rem;
 }
 
 .about-me-container {
@@ -108,6 +119,27 @@ text-align: center;
   margin-bottom: 2rem;
 }
 
+.services-container {
+  color: #545C64;
+  padding: 0 2.5rem 0 2.5rem;
+  line-height: 25px;
+  padding-bottom: 1rem;
+}
+
+.background-container {
+  background-image: url(./img/pattern_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+
+#whereitbegan {
+  padding-top: 0;
+
+}
+
 /*.services-at-glance {
   padding-top: 3rem;
   font-size: 1.75rem;
@@ -119,34 +151,34 @@ text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas:
-  "css html"
-  "javascript jqeury"
-  "spanish spanish"
-  ;
-
-
+  grid-template-areas: "css html" "javascript jqeury" "spanish spanish";
 }
 
 .grid-wrapper:nth-child(1) {
   grid-area: css;
 }
+
 .grid-wrapper:nth-child(2) {
   grid-area: html;
 }
+
 .grid-wrapper:nth-child(3) {
   grid-area: javascript;
 }
+
 .grid-wrapper:nth-child(4) {
   grid-area: jquery;
 }
+
 .grid-wrapper:nth-child(5) {
   grid-area: spanish;
 }
+
 .grid-wrapper:nth-child(6) {
   grid-area: web;
   background-color: red;
 }
+
 
 /*.pleasure {
   padding-top: 3rem;
@@ -156,15 +188,21 @@ text-align: center;
 }*/
 
 .worked-with {
-  padding-top: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  color: #545C64;
+  padding: 0 2.5rem 0 2.5rem;
+  line-height: 25px;
+}
 
+#cityscape {
+  margin-top: 0;
 }
 
 .jobs img {
   height: 5rem;
   padding: 0 0 1rem 0;
 }
-
 
 .js a {
   text-decoration: none;
@@ -188,38 +226,149 @@ text-align: center;
   margin: 1rem 0 1rem 0;
 }
 
+.titleintro a {
+  text-decoration: none;
+  color: #545C64;
+}
+.clone-title a {
+  text-decoration: none;
+  color: #545C64;
+  font-size: 1.25rem;
+}
+
+.clone-title {
+  margin: 1rem 0 1rem 0;
+}
+
+#currentlocation {
+  margin-bottom: 1rem;
+}
+
+#contact-name {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+#apple {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+#map {
+  height: 300px;
+  width: 100%;
+}
+
+.job {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: .25rem;
+}
+
+.email-me-container {
+  padding-top: .52rem;
+  display: flex;
+  justify-content: center;
+  height: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.email-me-button {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.contact-me-container {
+  padding-top: 1rem;
+  text-align: center;
+  color: #545C64;
+  padding: 0 2.5rem 0 2.5rem;
+  line-height: 25px;
+}
 
 
 
+.social-media-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem 2rem 4rem;
+}
 
+.social-media {
+  font-size: 1rem;
+  border: 2px solid #dfdfdf;
+  color: #9e9e9e;
+  border-radius: 50%;
+  width:45px;
+  height: 45px;
+  text-align: center;
+  padding: .5rem;
+}
 
+.social-media i {
+  font-size: 1.5rem;
+  padding: 0;
+}
 
+.linked-in img {
+  border-radius: 80px;
+  height: 6rem;
+}
 
+.linked-in {
+  margin-top: 1rem;
+}
 
+.current-location-container {
+  padding: 0;
+}
 
+.current-location-container {
+  background-image: url(./img/pattern_1.png);
+  padding: 0 2.5rem 0 2.5rem;
+  text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.logoo img{
-  height : 300px;
+.logoo img {
+  height: 300px;
   width: 300px;
   display: inline-block;
 }
+
+.quote {
+  font-size: 1.04rem;
+    line-height: 1.25rem;
+  padding: 1rem 0 1rem 0;
+  font-family: 'Italiana', serif;
+}
+
+.footer-container {
+  background-image: url(./img/grayback.png);
+  color: white;
+  padding: 0 0 1rem 0;
+}
+
+.footer {
+  padding: 0 2.5rem 0 2.5rem;
+  text-align: center;
+}
+
+.info-about-me {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.whoami {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.my-journey {
+  padding: 0 2rem;
+}
+
+
 
 #outer {
   stroke-dasharray: 757;
@@ -231,7 +380,7 @@ text-align: center;
   from {
     stroke-dashoffset: 757;
   }
-  to{
+  to {
     stroke-dashoffset: 0;
   }
 }
@@ -246,7 +395,7 @@ text-align: center;
   from {
     stroke-dashoffset: 757;
   }
-  to{
+  to {
     stroke-dashoffset: 0;
   }
 }

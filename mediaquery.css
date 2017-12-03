@@ -1,0 +1,601 @@
+@media screen and (min-width: 439px) {
+.chicago-town {
+  margin-top: 3rem;
+}
+}
+@media screen and (min-width: 439px) {
+
+.chicago-town {
+  position: absolute;
+  top: 23rem;
+  /*margin-top: 8rem;*/
+}
+.email-me-button {
+  padding: 0 .5rem 0 .5rem;
+}
+
+.social-media-container {
+  padding: 0 5rem 3rem 5rem;
+}
+}
+@media screen and (min-width: 514px) {
+
+.chicago-town {
+  position: absolute;
+  top: 23rem;
+  /*margin-top: 8rem;*/
+}
+
+.header-container {
+  height: 40rem;
+}
+.email-me-button {
+  padding: 0 1rem 0 1rem;
+}
+
+.social-media-container {
+  padding: 0 7rem 3rem 7rem;
+}
+
+.apple img {
+  height: 18rem;
+}
+
+.tesla img {
+  height: 18rem;
+}
+
+.services-container {
+  padding-bottom: 5rem;
+}
+
+#whereitbegan {
+  padding-top: 1rem;
+}
+}
+
+@media screen and (min-width: 514px) {
+.chicago-town {
+  top: 23rem;
+  height: 19rem;
+}
+
+.intro-about-me {
+  font-size: 2rem;
+}
+
+#mainname {
+  font-size: 6rem;
+}
+.header-container {
+  height: 45rem;
+}
+.email-me-button {
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.social-media-container {
+  padding: 0 9rem 3rem 9rem;
+}
+#map {
+  height: 400px;
+}
+.apple img {
+  height: 20rem;
+}
+
+.tesla img {
+  height: 20rem;
+  padding: 0px 3rem 0 3rem;
+}
+.smarter img {
+    height: 20rem;
+}
+.cityscape img {
+    height: 8rem;
+}
+.tee img {
+    height: 23rem;
+}
+}
+
+@media screen and (min-width: 665px) {
+
+.services-container {
+  padding: 0 5.5rem 2rem 5.5rem;
+}
+
+.about-me-container {
+  padding: 0 5rem 0 5rem;
+}
+
+.tesla img {
+    height: 25rem;
+    padding: 0px 5rem 0 5rem;
+}
+
+.apple img {
+  height: 25rem;
+}
+
+.email-me-button {
+  padding: 0 2.7rem 0 2.7rem;
+}
+
+.social-media-container {
+  padding: 0 12rem 3rem 12rem;
+}
+}
+
+@media screen and (min-width: 700px) {
+
+  .clone-title a {
+      font-size: 2rem;
+  }
+
+.services-container {
+  padding: 0 5.5rem 4rem 5.5rem;
+}
+
+.about-me-container {
+  padding: 0 5rem 0 5rem;
+}
+
+.tesla img {
+    height: 25rem;
+    padding: 0px 5rem 0 5rem;
+}
+
+.apple img {
+  height: 25rem;
+}
+
+.email-me-button {
+  padding: 0 3rem 0 3rem;
+}
+
+.social-media-container {
+  padding: 0 13rem 3rem 13rem;
+}
+
+.intro-about-me {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: .25rem;
+
+}
+
+.section2-container {
+  padding: 0;
+}
+
+.tesla img {
+  padding: 0;
+}
+
+#map {
+  height: 450px;
+}
+
+}
+
+@media screen and (min-width: 750px) {
+  .header-container {
+    height: 48rem;
+}
+
+.chicago-town {
+    top: 24rem;
+    height: 21rem;
+}
+
+.intro-about-me {
+  padding-top: 3rem;
+}
+
+.email-me-button {
+  padding: 0 3.8rem 0 3.8rem;
+}
+
+.social-media-container {
+  padding: 0 14rem 3rem 14rem;
+}
+
+.quote {
+  padding-top: 2rem;
+}
+
+.policy {
+  padding-bottom: .5rem;
+}
+
+.infoheader {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+#whereitbegan {
+  padding-top: 4rem;
+}
+
+
+}
+
+@media screen and (min-width: 900px) {
+  .header-container {
+    height: 52rem;
+}
+
+.chicago-town {
+    top: 24rem;
+    height: 25rem;
+}
+
+.intro-about-me {
+  padding-top: 3rem;
+}
+
+.email-me-button {
+  padding: 0 5.5rem 0 5.5rem;
+}
+
+.services-container {
+    padding: 0 15.5rem 4rem 15.5rem;
+}
+
+.social-media-container {
+  padding: 0 19rem 3rem 19rem;
+}
+
+.smarter img {
+    height: 31rem;
+}
+.cityscape img {
+    height: 11rem;
+}
+.tee img {
+    height: 31rem;
+}
+
+.reach-out {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+}
+
+@media screen and (min-width: 1000px) {
+
+  .header-container {
+    height: 54rem;
+}
+
+.chicago-town {
+    top: 23rem;
+    height: 28rem;
+}
+
+.intro-about-me {
+  padding-top: 3rem;
+}
+
+.email-me-button {
+  padding: 0 5.5rem 0 5.5rem;
+}
+
+.services-container {
+    padding: 0 15.5rem 6rem 15.5rem;
+    font-size: 1.25rem;
+}
+
+.social-media-container {
+  padding: 0 19rem 3rem 19rem;
+}
+
+.my-journey {
+    padding: 0 18rem;
+    font-size: 1.25rem;
+}
+
+.about-me-container {
+  padding: 0px 17rem 0 17rem;
+  font-size: 1.25rem;
+}
+
+.social-media-container {
+    padding: 0 22rem 3rem 22rem;
+}
+.email-me-button {
+    padding: 0 6.5rem 0 6.5rem;
+}
+
+.infoheader {
+  font-size: 3rem;
+}
+
+.titleintro {
+  font-size: 1.5rem;
+}
+
+}
+
+@media screen and (min-width: 1100px) {
+
+  .jobs img {
+    margin-top: 2rem;
+    padding: 0;
+  }
+
+  .header-container {
+    height: 55rem;
+}
+
+.chicago-town {
+  top: 20rem;
+  height: 34rem;
+}
+.clone-title {
+    margin: 2rem 0 2rem 0;
+}
+
+.intro-about-me {
+  padding-top: 3rem;
+}
+
+.email-me-button {
+  padding: 0 7.5rem 0 7.5rem;
+}
+
+.services-container {
+    padding: 0 15.5rem 6rem 15.5rem;
+}
+
+.social-media-container {
+  padding: 0 26rem 3rem 26rem;
+}
+
+.my-journey {
+    padding: 0 18rem;
+}
+
+.about-me-container {
+  padding: 0px 17rem 0 17rem;
+}
+
+.whatilearned {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+                  "city city"
+                  "tee js"
+
+}
+
+.box-1 {
+  grid-area: js;
+}
+.box-2 {
+  grid-area: tee;
+}
+.box-3 {
+  grid-area: city;
+  text-align: center;
+}
+
+.cityscape img {
+    height: 15rem;
+    width: 90%;
+}
+.tesla img {
+    height: 25rem;
+    padding: 0px 5rem 0 5rem;
+}
+
+
+}
+
+@media screen and (min-width: 1100px) {
+
+  .my-journey {
+      line-height: 2rem;
+      font-size: 1.5rem;
+      padding: 2rem 10rem 2rem 10rem;
+  }
+
+  .about-me-container {
+    font-size: 1.5rem;
+  }
+
+.grid-wrapper {
+  font-size: 1.5rem;
+}
+
+.bot-box {
+  width: 50%;
+}
+
+#map {
+    width: 47%;
+    padding: 1rem 35em 1rem 0rem;
+    height: 526px;
+}
+
+.bot-box-2 {
+  width: 50%;
+}
+
+.map-location-box {
+  display: flex;
+}
+.social-media-container {
+    padding: 0 9rem 4rem 9rem;
+}
+
+.email-me-button {
+    padding: 0px 1.5rem 0 1.5rem;
+}
+
+.intro-about-me {
+    padding: 0 12rem 0 12rem;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+  .header-container {
+      height: 57rem;
+  }
+  .social-media-container {
+    padding: 0 11rem 4rem 11rem;
+}
+.email-me-button {
+    padding: 0px 2rem 0 2rem;
+}
+.cityscape img {
+    height: 18rem;
+    width: 87%;
+}
+.my-journey {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    padding: 2rem 12rem 2rem 12rem;
+}
+.services-container {
+    padding: 0 20.5rem 6rem 20.5rem;
+}
+.about-me-container {
+    padding: 0px 20rem 0 20rem;
+}
+
+}
+
+@media screen and (min-width: 1250px) {
+  .email-me-button {
+      padding: 0px 2.5rem 0 2.5rem;
+  }
+  .chicago-town {
+    top: 19rem;
+    height: 36rem;
+}
+
+}
+
+@media screen and (min-width: 1310px) {
+  .email-me-button {
+      padding: 0px 2.5rem 0 2.5rem;
+  }
+  .chicago-town {
+    top: 19rem;
+    height: 35rem;
+}
+
+.header-container {
+    height: 59rem;
+}
+
+.chicago-town {
+    top: 19rem;
+    height: 37rem;
+}
+
+}
+
+@media screen and (min-width: 1400px) {
+  .email-me-button {
+      padding: 0px 2.5rem 0 2.5rem;
+  }
+  .chicago-town {
+      top: 19rem;
+      height: 39rem;
+  }
+
+.header-container {
+    height: 61rem;
+}
+
+.worked-with {
+    padding: 0 9.5rem 0 9.5rem;
+}
+
+.social-media-container {
+    padding: 0 13rem 4rem 13rem;
+}
+
+.email-me-button {
+    padding: 0px 3rem 0 3rem;
+}
+
+.name {
+  padding: 2.5rem
+}
+
+
+}
+
+@media screen and (min-width: 1500px) {
+
+
+  .chicago-town {
+      top: 16rem;
+      height: 42rem;
+  }
+
+  .social-media-container {
+      padding: 0 15rem 4rem 15rem;
+  }
+
+  .email-me-button {
+      padding: 0px 4rem 0 4rem;
+  }
+  .services-container {
+    padding: 0 28.5rem 6rem 28.5rem;
+}
+
+}
+
+@media screen and (min-width: 1678px) {
+
+  .header-container {
+      height: 61rem;
+  }
+  .chicago-town {
+      top: 19rem;
+      height: 47rem;
+      margin: 0;
+  }
+
+  .intro-about-me {
+    padding: 0px 17rem 0 17rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
+}
+
+  .social-media-container {
+      padding: 0 18rem 4rem 18rem;
+  }
+
+  .email-me-button {
+      padding: 0px 5rem 0 5rem;
+  }
+  .tesla img {
+    padding: 0px 9rem 0 9rem;
+}
+
+.about-me-container {
+    padding: 0px 24rem 0 24rem;
+}
+
+.quote {
+  font-size: 1.75rem;
+}
+
+#latest-work {
+    padding-top: 8rem;
+}
+
+}
